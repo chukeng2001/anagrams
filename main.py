@@ -3,8 +3,7 @@ def find_anagram(str1, str2):
     sorted_1=sorted(str1)
     sorted_2=sorted(str2)
     if sorted_1==sorted_2:
-    #if sorted (earth)== sorted (heart):
-        return True
+            return True
     #print ("True")
     return False
     #print ("False")
